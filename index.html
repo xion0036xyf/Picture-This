@@ -16,12 +16,21 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <picture>
-      <source srcset="images/"
-
-
+      <source srcset="images/1600-1.jpg 1x,
+      images/1600-2.jpg 2x,
+      images/1600-3.jpg 3x"
       media="(min-width:1600px)"/>
+
+      <source srcset="images/320-1x.jpg 1x,
+      images/320-2x.jpg 2x,
+      images/320-3x.jpg 3x" 
+      media="(max-width:320px)"/>
+
+
+
+      <img src="images/museum.jpg" alt="placeholder">
     </picture>
-    <img src="images/museum.jpg" alt="placeholder">
+    
 
   </header>
 </body>
