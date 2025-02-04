@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.header { 
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -33,7 +33,7 @@ img {
   display: block;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 960px) { 
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
