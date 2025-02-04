@@ -39,4 +39,14 @@ img {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width:959px) {
+  img {
+    width: 100%;
+  }
+  
 }
